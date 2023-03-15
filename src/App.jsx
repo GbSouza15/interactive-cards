@@ -12,7 +12,7 @@ function App() {
 
     return (
         <div className="App font-spacegrotesk min-[1024px]:flex">
-            <img className="w-[100%] h-[15rem] min-[1024px]:h-[100vh] min-[1024px]:w-[26rem]" src="../images/bg-main-mobile.png"/>
+            <img className="w-[100%] h-[15rem] min-[1024px]:h-[100vh] min-[1024px]:w-[26rem]" src="../images/bg-main-desktop.png"/>
             <Cards
                 setName={cardName}
                 setNumber={cardNumber}
