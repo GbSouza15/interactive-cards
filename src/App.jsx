@@ -1,6 +1,7 @@
 import Form from "./Form.jsx";
 import { useState } from "react";
 import { Cards } from "./Cards.jsx";
+import bg from '../images/bg-main-mobile.png'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
 
     return (
         <div className="App font-spacegrotesk min-[1024px]:flex">
-            <img className="w-[100%] h-[15rem] min-[1024px]:h-[100vh] min-[1024px]:w-[26rem]" src="../images/bg-main-desktop.png"/>
+            <img className="w-[100%] h-[15rem] min-[1024px]:h-[100vh] min-[1024px]:w-[26rem]" src={bg}/>
             <Cards
                 setName={cardName}
                 setNumber={cardNumber}
