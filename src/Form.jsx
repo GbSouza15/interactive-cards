@@ -30,7 +30,7 @@ export default function Form({ catchName, sendName, catchNumber, sendNumber, cat
                 </label>
             </div>
 
-            <button className="btnSubmit bg-[#220930] text-white rounded-[.5rem] p-3" onClick={handleClick}>Confirm</button>
+            {/*<button className="btnSubmit bg-[#220930] text-white rounded-[.5rem] p-3" onClick={handleClick}>Confirm</button>*/}
         </form>
     )
 }
